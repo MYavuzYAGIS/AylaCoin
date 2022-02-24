@@ -16,13 +16,15 @@ class Blockchain:
             'index' : len(self.chain) + 1,  # index is the number of blocks in the chain.
             'timestamp' : str(datetime.datetime.now()), # timestamp is the time of the block creation.
             'proof' : proof, # proof is the proof of work.
-            'previous_hash' : previous_hash # previous_hash is the hash of the previous block.
+            'previous_hash' : previous_hash, # previous_hash is the hash of the previous block.
+
         }
         self.chain.append(block)
         return block
 
     def get_previous_block(self):
         return self.chain[-1] # returns the last block in the chain.
+    
 
     def proof_of_work(self, previous_proof):
         new_proof = 1 # increment will need in each iteration until getting the right proof
@@ -55,16 +57,11 @@ class Blockchain:
             block_index += 1
         return True
 
-
-# creating web application
-
-app = Flask(__name__)
-
-
-
-# Part 2 - Mining our Blockchain
+# Mining Blockchain
 
 blockchain = Blockchain()
+
+app = Flask(__name__)
 
 @app.route('/mine_block',methods=["GET"])
 def mine_block():
@@ -85,4 +82,16 @@ def mine_block():
     return jsonify(response), 200
 
 
+
+# get full blockchain.
+
+@app.route('/get_chain',methods=["GET"])
+def get_chain():
+    if request.method != "GET":
+        return "Wrong HTTP VERB!"
+    response = {
+        'chain':blockchain.chain,
+        'length':len(blockchain.chain) 
+    }
+    return jsonify(response), 200    
 
