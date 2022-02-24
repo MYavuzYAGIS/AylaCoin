@@ -56,18 +56,6 @@ class Blockchain:
         return True
 
 
-            
-
-
-
-
-
-    
-
-
-
-
-
-
 
 # Part 2 - Mining our Blockchain
+
