@@ -1,6 +1,7 @@
 import datetime
 import hashlib
 import json
+from http.client import HTTPResponse
 
 from flask import Flask, jsonify, request
 
@@ -81,8 +82,6 @@ def mine_block():
         }
     return jsonify(response), 200
 
-
-
 # get full blockchain.
 
 @app.route('/get_chain',methods=["GET"])
@@ -95,3 +94,20 @@ def get_chain():
     }
     return jsonify(response), 200    
 
+
+
+# check whether if the blockchain is valid
+
+@app.route('/validate',methods=["GET"])
+def validate():
+    chain = blockchain.chain
+    result = blockchain.is_chain_valid(chain)
+    if result:
+        response = " This is a valid Chain"
+    else:
+        response = "Not  a Valid chain"
+    return response,200
+    
+
+
+app.run(host='0.0.0.0',port=5000)
