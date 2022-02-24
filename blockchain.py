@@ -56,6 +56,33 @@ class Blockchain:
         return True
 
 
+# creating web application
+
+app = Flask(__name__)
+
+
 
 # Part 2 - Mining our Blockchain
+
+blockchain = Blockchain()
+
+@app.route('/mine_block',methods=["GET"])
+def mine_block():
+    if request.method != "GET":
+        return "Wrong HTTP VERB!"
+    previous_block = blockchain.get_previous_block()
+    previous_proof = previous_block['proof']
+    previous_hash = blockchain.hash(previous_block)
+    proof =blockchain.proof_of_work(previous_proof)
+    block = blockchain.create_block(proof,previous_hash) # create_block returns a block
+    response = {
+        'message':"Congrats! you mined a block11!!!111",
+        'index':block['index'],
+        'timestamp':block['timestamp'],
+        'proof': block['proof'],
+        'previous_hash':block['previous_hash']
+        }
+    return jsonify(response), 200
+
+
 
