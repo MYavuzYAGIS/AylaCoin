@@ -11,7 +11,13 @@ class Blockchain:
         self.chain = []
         self.create_block(proof=1, previous_hash='0')  # genesis block and proof =1 is the proof of work. 1 is arbitrary number.
 
-
+    def create_block(self,proof,previous_hash):
+        block = {
+            'index' : len(self.chain) + 1,  # index is the number of blocks in the chain.
+            'timestamp' : str(datetime.datetime.now()), # timestamp is the time of the block creation.
+            'proof' : proof, # proof is the proof of work.
+            'previous_hash' : previous_hash # previous_hash is the hash of the previous block.
+        }
 
 
 
