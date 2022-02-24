@@ -18,6 +18,8 @@ class Blockchain:
             'proof' : proof, # proof is the proof of work.
             'previous_hash' : previous_hash # previous_hash is the hash of the previous block.
         }
+        self.chain.append(block)
+        return block
 
 
 
