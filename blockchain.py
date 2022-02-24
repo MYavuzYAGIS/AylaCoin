@@ -1,7 +1,6 @@
 import datetime
 import hashlib
 import json
-from string import hexdigits
 
 from flask import Flask, jsonify, request
 
@@ -21,7 +20,7 @@ class Blockchain:
         }
         self.chain.append(block)
         return block
-    
+
     def get_previous_block(self):
         return self.chain[-1] # returns the last block in the chain.
 
@@ -35,6 +34,17 @@ class Blockchain:
             else:
                 new_proof += 1
         return new_proof
+    
+    def hash(self, block):
+        encoded_block = json.dumps(block, sort_keys=True).encode()
+        return hashlib.sha256(encoded_block).hexdigest()
+
+
+
+
+
+    
+
 
 
 
