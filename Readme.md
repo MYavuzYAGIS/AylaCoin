@@ -9,7 +9,9 @@ Flask
 
 ## endpoints:
 -> '/mine_block'
+<br/>
 -> 'get_chain'
+<br/>
 -> 'validate'
 
 
