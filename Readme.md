@@ -63,6 +63,7 @@ given the parameters `sender` and `recipient` and `amount`, the node will create
 
 <br/>
 -> `/connect_node`  ==> POST request
+
 <br/>
 Takes the nodes from a JSON file (mock data is used), checks whether the json file actually contains any adresses. 
 If there is at least one address, the node will connect to the node and add it to the list of nodes hence forming a network.
