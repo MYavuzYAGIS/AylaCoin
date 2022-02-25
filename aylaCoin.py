@@ -166,4 +166,20 @@ def add_transaction():
     }
     return jsonify(response), 201
 
+@app.route("/connect_node",method=["POST"])
+def connect_node():
+    json = request.get_json()
+    nodes = json.get('nodes') # addresses
+    if nodes is None:
+        return "Empty Node List", 401 
+    for node in nodes:
+        aylacoin.add_node(node)
+
+
+
+
+
+
+
+
 app.run(host="0.0.0.0", port=5000)

@@ -59,6 +59,10 @@ AylaCoin
 ## endpoints:
 -> `/add_transaction`  ==> POST request
 <br/>
+given the parameters `sender` and `recipient` and `amount`, the node will create a new transaction and add it to the list of transactions.
 
 <br/>
-
+-> `/connect_node`  ==> POST request
+<br/>
+Takes the nodes from a JSON file (mock data is used), checks whether the json file actually contains any adresses. 
+If there is at least one address, the node will connect to the node and add it to the list of nodes hence forming a network.
