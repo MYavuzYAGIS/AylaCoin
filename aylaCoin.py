@@ -181,6 +181,21 @@ def connect_node():
     return jsonify(response),201
 
 
+@app.route("/replace_chain", methods=["GET"])
+def replace_chain():
+    is_chain_replaced = aylacoin.replace_chain()
+    if is_chain_replaced:
+        response = {
+            "message": "Chain was replaced with the longest one.",
+            "new_chain": aylacoin.chain
+        }
+    else:
+        response = {
+            "message":"nothing to replace. it is already the longest one.",
+            "current_chain": aylacoin.chain
+        }
+    return jsonify(response), 200
+    
 
 
 
