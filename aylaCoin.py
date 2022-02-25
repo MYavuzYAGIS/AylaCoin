@@ -160,7 +160,10 @@ def add_transaction():
     transaction_keys = ['sender','receiver','amount']
     if not all(key in json for key in transaction_keys):
         return 'Missing information. Please provice Sender, Receiver, and Amount in request body', 400
-    index = aylacoin.add_transaction()
-
+    index = aylacoin.add_transaction(json['sender'],json['receiver'],json['amount'])
+    response = {
+        'message' : f'Transaction is added to the block: {index}'
+    }
+    return jsonify(response), 201
 
 app.run(host="0.0.0.0", port=5000)

@@ -1,6 +1,10 @@
 # WIP
 
 
+An experimental blockchain creation, mining, verification excersize.
+
+Also on top of that is build `AylaCoin` where `decentralized` nodes in the network can exchange `AylaCoin` with each other.
+
 # blockchain.py 
 
 ## Dependencies
@@ -12,11 +16,11 @@ requests
 `http://0.0.0.0:5000/${endpoint}`
 
 ## endpoints:
--> '/mine_block'
+-> `/mine_block`
 <br/>
--> 'get_chain'
+-> `get_chain`
 <br/>
--> 'validate'
+-> `validate`
 
 
 ## Functionalities:
@@ -40,7 +44,7 @@ using the validate endpoint, the node will check if the chain is valid or not.
 
 
 
-# customCoin.py 
+# AylaCoin.py 
 
 
 <p> Basically an experimental custom cryptocurrency based on the blockchain.py implementation above. </p>
@@ -50,3 +54,11 @@ using the validate endpoint, the node will check if the chain is valid or not.
 AylaCoin
 
 </br>
+
+
+## endpoints:
+-> `/add_transaction`  ==> POST request
+<br/>
+
+<br/>
+
