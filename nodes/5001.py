@@ -154,7 +154,7 @@ def validate():
     return response, 200
 
 
-@app.route("/add_transaction",method=["POST"])
+@app.route("/add_transaction",methods=["POST"])
 def add_transaction():
     json = request.get_json()
     transaction_keys = ['sender','receiver','amount']
@@ -166,7 +166,7 @@ def add_transaction():
     }
     return jsonify(response), 201
 
-@app.route("/connect_node",method=["POST"])
+@app.route("/connect_node",methods=["POST"])
 def connect_node():
     json = request.get_json()
     nodes = json.get('nodes') # addresses
