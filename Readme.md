@@ -1,5 +1,8 @@
 # WIP
 
+![logo](screenshots/logo.png)
+
+
 ==> *smart contracts will be added very soon.*
 
 
