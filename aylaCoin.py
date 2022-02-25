@@ -177,7 +177,8 @@ def connect_node():
     response = {
         "message": "Nodes are connected in the network.",
         "total_nodes": list(aylacoin.nodes)
-    },200
+    }
+    return jsonify(response),201
 
 
 
