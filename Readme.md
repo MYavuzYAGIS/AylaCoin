@@ -5,6 +5,11 @@ An experimental blockchain creation, mining, verification excersize.
 
 Also on top of that is build `AylaCoin` where `decentralized` nodes in the network can exchange `AylaCoin` with each other.
 
+
+## Mock Data:
+
+in the mock/*.json files, you can find the mock data for the nodes and the transaction format.
+
 # blockchain.py 
 
 ## Dependencies
@@ -69,5 +74,7 @@ If there is at least one address, the node will connect to the node and add it t
 -> `/replace_chain`  ==> GET request
 
 replaces the chain with the longest chain in the network.
+
+
 
 
