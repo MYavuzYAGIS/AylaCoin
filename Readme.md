@@ -49,11 +49,6 @@ using the validate endpoint, the node will check if the chain is valid or not.
 
 <p> Basically an experimental custom cryptocurrency based on the blockchain.py implementation above. </p>
 
-</br>
-
-AylaCoin
-
-</br>
 
 
 ## endpoints:
