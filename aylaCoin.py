@@ -11,7 +11,7 @@ import requests
 from flask import Flask, jsonify, request
 
 
-class Blockchain:
+class aylaCoin:
     def __init__(self):
         self.chain = []
         self.transactions = []
@@ -102,7 +102,7 @@ class Blockchain:
 
 
 # ====== implementation =======
-blockchain = Blockchain()
+aylacoin = aylaCoin()
 
 # Create an address for the node on port 5000
 node_address = str(uuid4()).replace("-", "")
@@ -115,12 +115,12 @@ app = Flask(__name__)
 def mine_block():
     if request.method != "GET":
         return "Wrong HTTP VERB!"
-    previous_block = blockchain.get_previous_block()
+    previous_block = aylacoin.get_previous_block()
     previous_proof = previous_block["proof"]
-    previous_hash = blockchain.hash(previous_block)
-    blockchain.add_transaction(sender=node_address, receiver='Ayla',amount=100)
-    proof = blockchain.proof_of_work(previous_proof)
-    block = blockchain.create_block(
+    previous_hash = aylacoin.hash(previous_block)
+    aylacoin.add_transaction(sender=node_address, receiver='Ayla',amount=100)
+    proof = aylacoin.proof_of_work(previous_proof)
+    block = aylacoin.create_block(
         proof, previous_hash
     )  # create_block returns a block
     response = {
@@ -138,22 +138,29 @@ def mine_block():
 def get_chain():
     if request.method != "GET":
         return "Wrong HTTP VERB!"
-    response = {"chain": blockchain.chain, "length": len(blockchain.chain)}
+    response = {"chain": aylacoin.chain, "length": len(aylacoin.chain)}
     return jsonify(response), 200
 
 
 # check whether if the blockchain is valid
-
-
 @app.route("/validate", methods=["GET"])
 def validate():
-    chain = blockchain.chain
-    result = blockchain.is_chain_valid(chain)
+    chain = aylacoin.chain
+    result = aylacoin.is_chain_valid(chain)
     if result:
         response = " This is a valid Chain"
     else:
         response = "Not  a Valid chain"
     return response, 200
+
+
+@app.route("/add_transaction",method=["POST"])
+def add_transaction():
+    json = request.get_json()
+    transaction_keys = ['sender','receiver','amount']
+    if not all(key in json for key in transaction_keys):
+        return 'Missing information. Please provice Sender, Receiver, and Amount in request body', 400
+    index = aylacoin.add_transaction()
 
 
 app.run(host="0.0.0.0", port=5000)
