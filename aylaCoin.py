@@ -174,6 +174,10 @@ def connect_node():
         return "Empty Node List", 401 
     for node in nodes:
         aylacoin.add_node(node)
+    response = {
+        "message": "Nodes are connected in the network.",
+        "total_nodes": list(aylacoin.nodes)
+    },200
 
 
 
