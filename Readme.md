@@ -1,7 +1,11 @@
 # WIP
 
+
+# blockchain.py 
+
 ## Dependencies
 Flask
+requests
 
 ## App URL
 
@@ -31,3 +35,12 @@ When a request is made to the endpoint '/get_chain', the node returns the entire
 
 using the validate endpoint, the node will check if the chain is valid or not.
 
+
+
+
+
+
+# customCoin.py 
+
+
+<p> Basically an experimental custom cryptocurrency based on the blockchain.py implementation above. </p>
