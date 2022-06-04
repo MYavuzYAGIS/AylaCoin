@@ -5,7 +5,7 @@
 
 
 
-# WIP
+# MVP
 
 ==> *smart contracts will be added very soon.*
 
