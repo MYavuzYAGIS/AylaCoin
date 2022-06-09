@@ -52,4 +52,11 @@ contract aylacoin_ico {
         equity_usd[investor] = equity_aylacoins[investor] / 100;
         total_aylacoins_bought += aylacoin_bought;
     }
+
+    //selling AylaCoin
+    function sell_aylacoin(address investor, uint32 aylacoin_sold) external {
+        equity_aylacoins[investor] -= aylacoin_sold;
+        equity_usd[investor] = equity_aylacoins[investor] / 100;
+        total_aylacoins_bought -= aylacoin_sold;
+    }
 }
