@@ -142,3 +142,220 @@
 [2022/06/09 17:43:06.155] - eth_getBlockTransactionCountByHash
 [2022/06/09 17:43:09.023] - eth_getBlockByNumber
 [2022/06/09 17:43:09.059] - eth_getTransactionReceipt
+[2022/06/09 17:46:07.223] - eth_getTransactionByHash
+[2022/06/09 17:46:55.195] - eth_getLogs
+[2022/06/09 17:59:02.158] - eth_call
+[2022/06/09 17:59:02.684] - eth_estimateGas
+[2022/06/09 17:59:19.971] - eth_call
+[2022/06/09 17:59:25.602] - eth_getBalance
+[2022/06/09 17:59:25.603] - eth_gasPrice
+[2022/06/09 17:59:25.604] - eth_getTransactionCount
+[2022/06/09 17:59:25.628] - eth_getBalance
+[2022/06/09 17:59:25.629] - eth_gasPrice
+[2022/06/09 17:59:25.630] - eth_getTransactionCount
+[2022/06/09 17:59:25.688] - eth_estimateGas
+[2022/06/09 17:59:27.326] - eth_sendRawTransaction
+[2022/06/09 17:59:27.557] - 
+[2022/06/09 17:59:27.558] -   Transaction: 0x8318234d828bcd6977a43a45461a245ed2a3cf065925129671f2a7a7d9cb82eb
+[2022/06/09 17:59:27.559] -   Gas usage: 22276
+[2022/06/09 17:59:27.565] -   Block Number: 2
+[2022/06/09 17:59:27.582] -   Block Time: Thu Jun 09 2022 17:59:27 GMT+0300 (GMT+03:00)
+[2022/06/09 17:59:27.589] - 
+[2022/06/09 17:59:27.594] - eth_getBlockByNumber
+[2022/06/09 17:59:27.595] - eth_getBalance
+[2022/06/09 17:59:27.596] - eth_getTransactionCount
+[2022/06/09 17:59:27.602] - eth_getBalance
+[2022/06/09 17:59:27.604] - eth_getTransactionCount
+[2022/06/09 17:59:27.605] - eth_getBalance
+[2022/06/09 17:59:27.613] - eth_getTransactionCount
+[2022/06/09 17:59:27.620] - eth_getBalance
+[2022/06/09 17:59:27.621] - eth_getTransactionCount
+[2022/06/09 17:59:27.625] - eth_getBalance
+[2022/06/09 17:59:27.630] - eth_getTransactionCount
+[2022/06/09 17:59:27.634] - eth_getBalance
+[2022/06/09 17:59:27.642] - eth_getTransactionCount
+[2022/06/09 17:59:27.647] - eth_getBalance
+[2022/06/09 17:59:27.653] - eth_getTransactionCount
+[2022/06/09 17:59:27.654] - eth_getBalance
+[2022/06/09 17:59:27.657] - eth_getTransactionCount
+[2022/06/09 17:59:27.661] - eth_getBalance
+[2022/06/09 17:59:27.664] - eth_getTransactionCount
+[2022/06/09 17:59:27.667] - eth_getBalance
+[2022/06/09 17:59:27.671] - eth_getTransactionCount
+[2022/06/09 17:59:50.336] - eth_estimateGas
+[2022/06/09 17:59:52.785] - eth_estimateGas
+[2022/06/09 17:59:53.128] - eth_estimateGas
+[2022/06/09 17:59:53.258] - eth_estimateGas
+[2022/06/09 17:59:54.868] - eth_getBalance
+[2022/06/09 17:59:54.868] - eth_gasPrice
+[2022/06/09 17:59:54.869] - eth_getTransactionCount
+[2022/06/09 17:59:54.895] - eth_getBalance
+[2022/06/09 17:59:54.896] - eth_gasPrice
+[2022/06/09 17:59:54.896] - eth_getTransactionCount
+[2022/06/09 17:59:56.096] - eth_sendRawTransaction
+[2022/06/09 18:00:04.988] - eth_estimateGas
+[2022/06/09 18:00:06.181] - eth_getBalance
+[2022/06/09 18:00:06.182] - eth_gasPrice
+[2022/06/09 18:00:06.183] - eth_getTransactionCount
+[2022/06/09 18:00:06.198] - eth_getBalance
+[2022/06/09 18:00:06.199] - eth_gasPrice
+[2022/06/09 18:00:06.200] - eth_getTransactionCount
+[2022/06/09 18:00:06.956] - eth_sendRawTransaction
+[2022/06/09 18:00:07.167] - 
+[2022/06/09 18:00:07.168] -   Transaction: 0x0e08a58bfd22733a4f6ac6cf79e33e28e656b3128324946e73eb6e605f8ae087
+[2022/06/09 18:00:07.169] -   Gas usage: 21477
+[2022/06/09 18:00:07.170] -   Block Number: 3
+[2022/06/09 18:00:07.172] -   Block Time: Thu Jun 09 2022 18:00:06 GMT+0300 (GMT+03:00)
+[2022/06/09 18:00:07.175] -   Runtime Error: revert
+[2022/06/09 18:00:07.182] - 
+[2022/06/09 18:00:07.186] - eth_getBlockByNumber
+[2022/06/09 18:00:07.189] - eth_getBalance
+[2022/06/09 18:00:07.190] - eth_getTransactionCount
+[2022/06/09 18:00:07.198] - eth_getBalance
+[2022/06/09 18:00:07.199] - eth_getTransactionCount
+[2022/06/09 18:00:07.201] - eth_getBalance
+[2022/06/09 18:00:07.203] - eth_getTransactionCount
+[2022/06/09 18:00:07.208] - eth_getBalance
+[2022/06/09 18:00:07.209] - eth_getTransactionCount
+[2022/06/09 18:00:07.214] - eth_getBalance
+[2022/06/09 18:00:07.215] - eth_getTransactionCount
+[2022/06/09 18:00:07.216] - eth_getBalance
+[2022/06/09 18:00:07.220] - eth_getTransactionCount
+[2022/06/09 18:00:07.221] - eth_getBalance
+[2022/06/09 18:00:07.224] - eth_getTransactionCount
+[2022/06/09 18:00:07.228] - eth_getBalance
+[2022/06/09 18:00:07.230] - eth_getTransactionCount
+[2022/06/09 18:00:07.233] - eth_getBalance
+[2022/06/09 18:00:07.236] - eth_getTransactionCount
+[2022/06/09 18:00:07.238] - eth_getBalance
+[2022/06/09 18:00:07.240] - eth_getTransactionCount
+[2022/06/09 18:00:18.819] - eth_estimateGas
+[2022/06/09 18:00:20.370] - eth_getBalance
+[2022/06/09 18:00:20.371] - eth_gasPrice
+[2022/06/09 18:00:20.372] - eth_getTransactionCount
+[2022/06/09 18:00:20.397] - eth_getBalance
+[2022/06/09 18:00:20.398] - eth_gasPrice
+[2022/06/09 18:00:20.399] - eth_getTransactionCount
+[2022/06/09 18:00:21.206] - eth_sendRawTransaction
+[2022/06/09 18:00:21.395] - 
+[2022/06/09 18:00:21.396] -   Transaction: 0xbc78d0368092e09869219afa740992af026b50a816d633298c0a06368b5b1260
+[2022/06/09 18:00:21.397] -   Gas usage: 21477
+[2022/06/09 18:00:21.397] -   Block Number: 4
+[2022/06/09 18:00:21.400] -   Block Time: Thu Jun 09 2022 18:00:21 GMT+0300 (GMT+03:00)
+[2022/06/09 18:00:21.401] -   Runtime Error: revert
+[2022/06/09 18:00:21.401] - 
+[2022/06/09 18:00:21.413] - eth_getBlockByNumber
+[2022/06/09 18:00:21.415] - eth_getBalance
+[2022/06/09 18:00:21.416] - eth_getTransactionCount
+[2022/06/09 18:00:21.428] - eth_getBalance
+[2022/06/09 18:00:21.430] - eth_getTransactionCount
+[2022/06/09 18:00:21.433] - eth_getBalance
+[2022/06/09 18:00:21.435] - eth_getTransactionCount
+[2022/06/09 18:00:21.437] - eth_getBalance
+[2022/06/09 18:00:21.446] - eth_getTransactionCount
+[2022/06/09 18:00:21.451] - eth_getBalance
+[2022/06/09 18:00:21.453] - eth_getTransactionCount
+[2022/06/09 18:00:21.461] - eth_getBalance
+[2022/06/09 18:00:21.469] - eth_getTransactionCount
+[2022/06/09 18:00:21.474] - eth_getBalance
+[2022/06/09 18:00:21.476] - eth_getTransactionCount
+[2022/06/09 18:00:21.481] - eth_getBalance
+[2022/06/09 18:00:21.485] - eth_getTransactionCount
+[2022/06/09 18:00:21.491] - eth_getBalance
+[2022/06/09 18:00:21.495] - eth_getTransactionCount
+[2022/06/09 18:00:21.496] - eth_getBalance
+[2022/06/09 18:00:21.500] - eth_getTransactionCount
+[2022/06/09 18:00:46.142] - eth_call
+[2022/06/09 18:00:46.534] - eth_estimateGas
+[2022/06/09 18:00:50.597] - eth_estimateGas
+[2022/06/09 18:00:51.912] - eth_getBalance
+[2022/06/09 18:00:51.913] - eth_gasPrice
+[2022/06/09 18:00:51.914] - eth_getTransactionCount
+[2022/06/09 18:00:51.936] - eth_getBalance
+[2022/06/09 18:00:51.937] - eth_gasPrice
+[2022/06/09 18:00:51.937] - eth_getTransactionCount
+[2022/06/09 18:00:52.874] - eth_sendRawTransaction
+[2022/06/09 18:00:53.072] - 
+[2022/06/09 18:00:53.074] -   Transaction: 0x0288600278e701c9e9c12eb8d7bb355e5ff7bd84ad0f006d1cdaffbd5fc91904
+[2022/06/09 18:00:53.075] -   Gas usage: 22307
+[2022/06/09 18:00:53.077] -   Block Number: 5
+[2022/06/09 18:00:53.079] -   Block Time: Thu Jun 09 2022 18:00:52 GMT+0300 (GMT+03:00)
+[2022/06/09 18:00:53.080] - 
+[2022/06/09 18:00:53.083] - eth_getBlockByNumber
+[2022/06/09 18:00:53.087] - eth_getBalance
+[2022/06/09 18:00:53.089] - eth_getTransactionCount
+[2022/06/09 18:00:53.096] - eth_getBalance
+[2022/06/09 18:00:53.100] - eth_getTransactionCount
+[2022/06/09 18:00:53.104] - eth_getBalance
+[2022/06/09 18:00:53.105] - eth_getTransactionCount
+[2022/06/09 18:00:53.111] - eth_getBalance
+[2022/06/09 18:00:53.112] - eth_getTransactionCount
+[2022/06/09 18:00:53.115] - eth_getBalance
+[2022/06/09 18:00:53.116] - eth_getTransactionCount
+[2022/06/09 18:00:53.117] - eth_getBalance
+[2022/06/09 18:00:53.121] - eth_getTransactionCount
+[2022/06/09 18:00:53.123] - eth_getBalance
+[2022/06/09 18:00:53.127] - eth_getTransactionCount
+[2022/06/09 18:00:53.130] - eth_getBalance
+[2022/06/09 18:00:53.135] - eth_getTransactionCount
+[2022/06/09 18:00:53.138] - eth_getBalance
+[2022/06/09 18:00:53.139] - eth_getTransactionCount
+[2022/06/09 18:00:53.146] - eth_getBalance
+[2022/06/09 18:00:53.147] - eth_getTransactionCount
+[2022/06/09 18:01:01.681] - eth_getBlockByNumber
+[2022/06/09 18:01:01.717] - eth_getBlockTransactionCountByHash
+[2022/06/09 18:01:01.742] - eth_getBlockByNumber
+[2022/06/09 18:01:01.757] - eth_getBlockTransactionCountByHash
+[2022/06/09 18:01:01.774] - eth_getBlockByNumber
+[2022/06/09 18:01:01.790] - eth_getBlockTransactionCountByHash
+[2022/06/09 18:01:01.804] - eth_getBlockByNumber
+[2022/06/09 18:01:01.820] - eth_getBlockTransactionCountByHash
+[2022/06/09 18:01:15.174] - eth_call
+[2022/06/09 18:01:15.731] - eth_estimateGas
+[2022/06/09 18:01:17.161] - eth_getBalance
+[2022/06/09 18:01:17.162] - eth_gasPrice
+[2022/06/09 18:01:17.163] - eth_getTransactionCount
+[2022/06/09 18:01:17.185] - eth_getBalance
+[2022/06/09 18:01:17.186] - eth_gasPrice
+[2022/06/09 18:01:17.187] - eth_getTransactionCount
+[2022/06/09 18:01:18.101] - eth_sendRawTransaction
+[2022/06/09 18:01:18.288] - 
+[2022/06/09 18:01:18.289] -   Transaction: 0xd0872a24cf134ad6aa18e06c1d11b1c0e059541d447b043ac6ed941e76cae3dc
+[2022/06/09 18:01:18.290] -   Gas usage: 22276
+[2022/06/09 18:01:18.291] -   Block Number: 6
+[2022/06/09 18:01:18.292] -   Block Time: Thu Jun 09 2022 18:01:18 GMT+0300 (GMT+03:00)
+[2022/06/09 18:01:18.292] - 
+[2022/06/09 18:01:18.295] - eth_getBlockByNumber
+[2022/06/09 18:01:18.297] - eth_getBlockByNumber
+[2022/06/09 18:01:18.310] - eth_getBalance
+[2022/06/09 18:01:18.314] - eth_getTransactionCount
+[2022/06/09 18:01:18.326] - eth_getBalance
+[2022/06/09 18:01:18.328] - eth_getTransactionCount
+[2022/06/09 18:01:18.333] - eth_getBalance
+[2022/06/09 18:01:18.346] - eth_getTransactionCount
+[2022/06/09 18:01:18.347] - eth_getBalance
+[2022/06/09 18:01:18.351] - eth_getTransactionCount
+[2022/06/09 18:01:18.360] - eth_getBalance
+[2022/06/09 18:01:18.361] - eth_getTransactionCount
+[2022/06/09 18:01:18.362] - eth_getBalance
+[2022/06/09 18:01:18.365] - eth_getTransactionCount
+[2022/06/09 18:01:18.368] - eth_getBalance
+[2022/06/09 18:01:18.395] - eth_getTransactionCount
+[2022/06/09 18:01:18.397] - eth_getBalance
+[2022/06/09 18:01:18.408] - eth_getTransactionCount
+[2022/06/09 18:01:18.434] - eth_getBalance
+[2022/06/09 18:01:18.436] - eth_getTransactionCount
+[2022/06/09 18:01:18.437] - eth_getBalance
+[2022/06/09 18:01:18.439] - eth_getTransactionCount
+[2022/06/09 18:01:18.442] - eth_getBlockTransactionCountByHash
+[2022/06/09 18:01:22.450] - eth_getBlockByNumber
+[2022/06/09 18:01:22.479] - eth_getTransactionReceipt
+[2022/06/09 18:01:22.502] - eth_getBlockByNumber
+[2022/06/09 18:01:22.516] - eth_getTransactionReceipt
+[2022/06/09 18:01:22.534] - eth_getBlockByNumber
+[2022/06/09 18:01:22.546] - eth_getTransactionReceipt
+[2022/06/09 18:01:22.566] - eth_getBlockByNumber
+[2022/06/09 18:01:22.581] - eth_getTransactionReceipt
+[2022/06/09 18:01:22.600] - eth_getBlockByNumber
+[2022/06/09 18:01:22.616] - eth_getTransactionReceipt
+[2022/06/09 18:01:22.631] - eth_getTransactionReceipt
