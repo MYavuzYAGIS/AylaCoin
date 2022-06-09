@@ -2,7 +2,7 @@
 // Aylacoin'n ICO
 
 //version
-pragma solidity ^0.8.14;
+pragma solidity ^0.8.7;
 
 contract aylacoin_ico {
     // Introduce the max num of aylacoin for sale
@@ -40,5 +40,14 @@ contract aylacoin_ico {
 
     function equity_in_usd(address investor) external view returns (uint32) {
         return equity_usd[investor];
+    }
+
+    // Buying Aylacoin
+    function buy_aylacoin(address investor, uint32 usd_invested)
+        external
+        can_buy_aylacoin(usd_invested)
+    {
+        uint32 aylacoin_bought = usd_invested * usd_to_aylacoin;
+        equity_aylacoins[investor] += aylacoin_bought;
     }
 }
