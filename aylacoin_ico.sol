@@ -9,7 +9,8 @@ contract aylacoin_ico {
     uint32 public max_aylacoins = 1000000;
 
     // conversion USD/AC parity
-    uint256 public usd_to_aylacoin = 100;
+    uint32 public usd_to_aylacoin = 100;
 
-    //
+    //amount of Aylacoins bought by investors
+    uint32 public total_aylacoins_bought = 0;
 }
