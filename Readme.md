@@ -1,7 +1,11 @@
-# WIP
+[![CodeFactor](https://www.codefactor.io/repository/github/myavuzyagis/aylacoin/badge)](https://www.codefactor.io/repository/github/myavuzyagis/aylacoin)
 
 ![logo](screenshots/logo.png)
 
+
+
+
+# MVP
 
 ==> *smart contracts will be added very soon.*
 
