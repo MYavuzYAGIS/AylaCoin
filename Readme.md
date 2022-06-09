@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b6f76404f2bf46ba8540a73c8d08cec1)](https://app.codacy.com/gh/MYavuzYAGIS/AylaCoin?utm_source=github.com&utm_medium=referral&utm_content=MYavuzYAGIS/AylaCoin&utm_campaign=Badge_Grade_Settings)
 [![CodeFactor](https://www.codefactor.io/repository/github/myavuzyagis/aylacoin/badge)](https://www.codefactor.io/repository/github/myavuzyagis/aylacoin)
 
 ![logo](screenshots/logo.png)
