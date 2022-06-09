@@ -50,5 +50,6 @@ contract aylacoin_ico {
         uint32 aylacoin_bought = usd_invested * usd_to_aylacoin;
         equity_aylacoins[investor] += aylacoin_bought;
         equity_usd[investor] = equity_aylacoins[investor] / 100;
+        total_aylacoins_bought += aylacoin_bought;
     }
 }
