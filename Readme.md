@@ -2,7 +2,7 @@
 
 ![logo](screenshots/logo.png)
 
-# MVP
+# AYLACOIN in PYTHON
 
 An experimental blockchain creation, mining, verification excersize.
 
@@ -90,3 +90,23 @@ replaces the chain with the longest chain in the network.
 </br>
 
 ![add_transaction](screenshots/transaction_receipt.png)
+
+============================================================
+
+# AYLACOIN IN SOLIDITY, DEPLOYED
+
+## simple codebase
+
+![SOLIDITY](/screenshots/carbon.png)
+
+## ADDING TRANSACTIONS AND SIGNING
+
+![trans](/screenshots/deploycontract.png)
+
+## USING THE FUNCTIONS WE CREATED
+
+![](/screenshots/use_sol_functions.png)
+
+## All the transactions on the chain
+
+![trans](/screenshots/deployedworking.png)
