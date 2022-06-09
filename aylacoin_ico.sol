@@ -28,6 +28,17 @@ contract aylacoin_ico {
     }
 
     // getting the equity in aylacoins of an investor
+    function equity_in_aylacoins(address investor)
+        external
+        view
+        returns (uint32)
+    {
+        return equity_aylacoins[investor];
+    }
 
     // getting the equity in usd of an investor
+
+    function equity_in_usd(address investor) external view returns (uint32) {
+        return equity_usd[investor];
+    }
 }
