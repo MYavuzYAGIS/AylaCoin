@@ -99,3 +99,46 @@
 [2022/06/09 16:37:36.517] - eth_getBlockByNumber
 [2022/06/09 16:37:36.541] - eth_getBlockTransactionCountByHash
 [2022/06/09 16:37:37.256] - eth_getBlockByNumber
+[2022/06/09 17:23:03.812] - eth_blockNumber
+[2022/06/09 17:30:08.059] - eth_estimateGas
+[2022/06/09 17:31:19.689] - eth_estimateGas
+[2022/06/09 17:31:26.813] - eth_getBalance
+[2022/06/09 17:31:26.814] - eth_gasPrice
+[2022/06/09 17:31:26.815] - eth_getTransactionCount
+[2022/06/09 17:31:26.855] - eth_getBalance
+[2022/06/09 17:31:26.856] - eth_gasPrice
+[2022/06/09 17:31:26.857] - eth_getTransactionCount
+[2022/06/09 17:31:26.936] - eth_estimateGas
+[2022/06/09 17:31:35.272] - eth_sendRawTransaction
+[2022/06/09 17:31:35.511] - 
+[2022/06/09 17:31:35.513] -   Transaction: 0x6c6fe87ba059d3f8fc41adb86b47c994a5de25879746c039ba7482f392632639
+[2022/06/09 17:31:35.517] -   Contract created: 0xd3c34759cc2b2f346648984ad5f5bf2bf1865e29
+[2022/06/09 17:31:35.519] -   Gas usage: 336622
+[2022/06/09 17:31:35.520] -   Block Number: 1
+[2022/06/09 17:31:35.524] -   Block Time: Thu Jun 09 2022 17:31:35 GMT+0300 (GMT+03:00)
+[2022/06/09 17:31:35.525] - 
+[2022/06/09 17:31:35.529] - eth_getBlockByNumber
+[2022/06/09 17:31:35.530] - eth_getBalance
+[2022/06/09 17:31:35.531] - eth_getTransactionCount
+[2022/06/09 17:31:35.537] - eth_getBalance
+[2022/06/09 17:31:35.553] - eth_getTransactionCount
+[2022/06/09 17:31:35.560] - eth_getBalance
+[2022/06/09 17:31:35.568] - eth_getTransactionCount
+[2022/06/09 17:31:35.573] - eth_getBalance
+[2022/06/09 17:31:35.582] - eth_getTransactionCount
+[2022/06/09 17:31:35.586] - eth_getBalance
+[2022/06/09 17:31:35.593] - eth_getTransactionCount
+[2022/06/09 17:31:35.598] - eth_getBalance
+[2022/06/09 17:31:35.603] - eth_getTransactionCount
+[2022/06/09 17:31:35.611] - eth_getBalance
+[2022/06/09 17:31:35.619] - eth_getTransactionCount
+[2022/06/09 17:31:35.624] - eth_getBalance
+[2022/06/09 17:31:35.629] - eth_getTransactionCount
+[2022/06/09 17:31:35.633] - eth_getBalance
+[2022/06/09 17:31:35.636] - eth_getTransactionCount
+[2022/06/09 17:31:35.644] - eth_getBalance
+[2022/06/09 17:31:35.646] - eth_getTransactionCount
+[2022/06/09 17:43:06.110] - eth_getBlockByNumber
+[2022/06/09 17:43:06.155] - eth_getBlockTransactionCountByHash
+[2022/06/09 17:43:09.023] - eth_getBlockByNumber
+[2022/06/09 17:43:09.059] - eth_getTransactionReceipt
