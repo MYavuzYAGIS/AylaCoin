@@ -13,4 +13,8 @@ contract aylacoin_ico {
 
     //amount of Aylacoins bought by investors
     uint32 public total_aylacoins_bought = 0;
+
+    // mapping from investor address to its equity in Aylacoin and USD
+    mapping(address => uint32) equity_aylacoins;
+    mapping(address => uint32) equity_usd;
 }
