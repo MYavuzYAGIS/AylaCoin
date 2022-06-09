@@ -17,4 +17,17 @@ contract aylacoin_ico {
     // mapping from investor address to its equity in Aylacoin and USD
     mapping(address => uint32) equity_aylacoins;
     mapping(address => uint32) equity_usd;
+
+    // check if investor can buy aylacoin
+    modifier can_buy_aylacoin(uint32 usd_invested) {
+        require(
+            usd_invested * usd_to_aylacoin + total_aylacoins_bought <=
+                max_aylacoins
+        );
+        _;
+    }
+
+    // getting the equity in aylacoins of an investor
+
+    // getting the equity in usd of an investor
 }
