@@ -359,3 +359,5 @@
 [2022/06/09 18:01:22.600] - eth_getBlockByNumber
 [2022/06/09 18:01:22.616] - eth_getTransactionReceipt
 [2022/06/09 18:01:22.631] - eth_getTransactionReceipt
+[2022/06/09 18:07:43.600] - eth_unsubscribe
+[2022/06/09 18:07:43.602] - eth_unsubscribe
